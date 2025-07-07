@@ -6,6 +6,33 @@
     <title>Lezione 006</title>
 </head>
 <body>
+    <h1>JavaScript - Esercizio 5: Tabella utenti</h1>
+    <hr />
+
+    <p>Crea una tabella dinamica:</p>
+    <pre>
+        <code>
+            &lt;table&gt;
+                &lt;thead&gt;
+                    &lt;tr&gt;
+                        &lt;th>Nome&lt;//th&gt;
+                        &lt;th>Cognome&lt;//th&gt;
+                        &lt;th>Email&lt;//th&gt;
+                        &lt;th>Città&lt;//th&gt;
+                    &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody id="corpo-tabella"&gt;&lt;//tbody&gt;
+            &lt;/table&gt;
+        
+            const utenti = [
+                { nome: 'Mario', cognome: 'Rossi', email: 'mario@email.com', citta: 'Roma' },
+                { nome: 'Laura', cognome: 'Bianchi', email: 'laura@email.com', citta: 'Milano' },
+                { nome: 'Giuseppe', cognome: 'Verdi', email: 'giuseppe@email.com', citta: 'Napoli' }
+            ];
+        </code>
+    </pre>
+    <hr />
+
     <table id="tabella-utenti">
     <thead>
         <tr>
@@ -18,6 +45,6 @@
     <tbody id="corpo-tabella"></tbody>
     </table>
 
-    <script src="js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
