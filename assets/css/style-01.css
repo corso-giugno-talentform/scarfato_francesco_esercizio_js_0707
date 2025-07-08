@@ -1,0 +1,35 @@
+body {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+div#box {
+    width: 480px;
+    height: 480px;
+    border: 1px dotted;
+    position: fixed;
+    inset: 0;
+    margin: auto;    
+}
+
+div#card{
+    margin: auto;    
+    position: fixed;
+    inset: 0;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid #f00;
+    box-shadow: 10px 5px 5px #f00;
+    padding: 10px;
+}
+
+div#box>div#card>img.image {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 100%;
+}

@@ -1,0 +1,37 @@
+:root {
+    --fa-style-family-classic: 'Font Awesome 6 Free';
+    --fa-font-solid: normal 900 1em/1 'Font Awesome 6 Free';
+}
+
+
+body {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p:first-of-type:first-letter {
+    font-size: 48px;
+}
+
+p:first-of-type {
+    background-color: #0f0;
+}
+
+blockquote {
+    width: fit-content;
+    margin: auto;
+    border: 1px solid #00f;
+    padding: 20px
+}
+
+blockquote::before {
+    display: inline-flex;
+    content: '';
+    background-image: url("../images/cloud-rain-alt.svg");
+    background-size: 32px 32px;
+    height: 32px;
+    width: 32px;
+    top: 10px;
+    position: relative;
+}

@@ -1,0 +1,34 @@
+/* selettore universale */
+/* * {
+    font-size: 64px;
+} */
+
+h1 {
+    color: #ffa500;
+}
+
+table#tabella-utenti {
+    /* border: 1px solid #f00303; */
+    border: 1px solid #000;
+    border-collapse:collapse;
+    width: 50%;
+}
+table#tabella-utenti>tbody>tr>td {
+background-color: #0ff;
+    padding: 10px;
+    border: 1px dotted;
+}
+
+table#tabella-utenti>thead>tr {
+    background-color: #ff0;
+    height: 36px;
+    border: 1px solid;
+}
+
+div#tile {
+    margin-top: 10px;  
+    width: 50%;
+    height: 50px;
+    background-image: url("../images/tile.gif");
+    background-position-y: -10px;
+}
